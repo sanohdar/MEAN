@@ -1,1 +1,6 @@
-<mat-toolbar color="primary">Messages</mat-toolbar>
+<mat-toolbar color="primary">
+    <span routerLink="" style="cursor: pointer">Messages</span>
+    <span class="example-fill-remaining-space"> </span>
+    <!-- This fills the remaining space of the current row -->
+    <button mat-stroked-button (click)="onCreate()">Create</button>
+</mat-toolbar>
